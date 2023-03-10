@@ -39,7 +39,9 @@ export default function Board() {
       {isWinner ? (
         <h1>
           {isWinner} Won the Game{" "}
-          <button onClick={() => window.location.reload()}>Play Again</button>
+          <button className="btn" onClick={() => window.location.reload()}>
+            Play Again
+          </button>
         </h1>
       ) : (
         <div className="board-container">
@@ -59,7 +61,9 @@ export default function Board() {
             <Square value={state[7]} onClick={() => handleClick(7)} />
             <Square value={state[8]} onClick={() => handleClick(8)} />
           </div>
-          <button onClick={() => window.location.reload()}>Reset</button>
+          <button className="btn" onClick={() => window.location.reload()}>
+            Reset
+          </button>
         </div>
       )}
     </>

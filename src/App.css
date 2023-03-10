@@ -6,3 +6,14 @@
 .board-container{
 margin: 20px;
 }
+
+body {
+    background-color: rgb(129, 176, 252);
+}
+.btn{
+    border-radius: 2px;
+    background-color: rgb(162, 168, 211);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    
+}
